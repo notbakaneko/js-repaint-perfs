@@ -5,7 +5,7 @@ var List =[
 		{ type: 'naive', id: 'ember', url: './ember', label: 'DBMON Ember' },
 		{ type: 'naive', id: 'angular', url: './angular', label: 'DBMON Angular' },
 		{ type: 'naive', id: 'angular-light', url: './angular-light', label: 'DBMON Angular Light' },
-		{ type: 'naive', id: 'angular2', url: './angular2', label: 'DBMON Angular 2.0 Alpha' },
+		{ type: 'naive', id: 'angular2', url: './angular2/index.html', label: 'DBMON Angular 2.4' },
 		{ type: 'naive', id: 'react', url: './react', label: 'DBMON React' },
 		{ type: 'naive', id: 'magjs', url: './magjs', label: 'DBMON MagJS' },
 		{ type: 'naive', id: 'elem', url: './elem', label: 'DBMON elem' },
@@ -46,7 +46,8 @@ var List =[
 		{ type: 'naive', id: 'preact-functional', url: './preact/functional.html', label: 'DBMON Preact (Functional)' },
 		{ type: 'optimized', id: 'angular', url: './angular/opt.html', label: 'DBMON Angular' },
 		{ type: 'optimized', id: 'angular-light', url: './angular-light/opt.html', label: 'DBMON Angular Light' },
-		{ type: 'optimized', id: 'angular2', url: './angular2/opt.html', label: 'DBMON Angular 2.0 Alpha' },
+		{ type: 'optimized', id: 'angular2', url: './angular2/opt.html', label: 'DBMON Angular 2.4' },
+		{ type: 'optimized', id: 'angular2', url: './angular2/inline.html', label: 'DBMON Angular 2.4 (template inlined in component)' },
 		{ type: 'optimized', id: 'angular-track-by', url: './angular-track-by', label: 'DBMON Angular (track by $index)' },
 		{ type: 'optimized', id: 'elem', url: './elm/opt.html', label: 'DBMON elm' },
 		{ type: 'optimized', id: 'vanilla', url: './vanilla-optimized', label: 'DBMON vanilla' },
@@ -70,4 +71,4 @@ var List =[
 		{ type: 'naive', id: 'stemjs', url: './stemjs/index.html', label: 'DBMON StemJS'},
 		{ type: 'optimized', id: 'stemjs', url: './stemjs-optimized', label: 'DBMON StemJS'},
 	];
-	
+
